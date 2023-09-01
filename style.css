@@ -309,13 +309,13 @@ section{
     margin-top: -7px;
 }
 
-.active{
+.carousel-item.active{
    z-index: 1;
   display: flex;
   visibility:visible;
 }
 
-.active .carousel-item__subtitle, .active .carousel-item__title, .active .carousel-item__description,.active .carousel-item__btn{
+.carousel-item.active .carousel-item__subtitle, .active .carousel-item__title, .active .carousel-item__description,.active .carousel-item__btn{
     transform: translateY(0);
     opacity: 1;
   transition: 0.6s all ease-in-out;
