@@ -1,0 +1,113 @@
+*{}
+h2 {
+    font-family: Philosopher;
+}
+body {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/paper_fibers.png) repeat;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.title {
+    text-decoration: none;
+    color: black;
+    font-size: 3vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    margin-top: 23px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+    margin-right: 30px;
+}
+
+nav a.active {
+    font-weight: 700;
+}
+
+nav a:hover {
+    font-weight: 700;
+}
+
+.button-contact {
+    margin-top: 16px;
+}
+
+.container-video {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    height: 36vw;
+    padding: 0 3%;
+}
+
+#glass {
+    margin-left: -220px;
+}
+
+
+video {
+    object-fit: fill;
+}
+
+.main-content-top {
+    color: #074729;
+    position: absolute;
+    top: 95px;
+    /* min-height: 100vh; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    background: var(--layer);
+}
+
+.main-content{
+    text-align-last: center;
+    color: white;
+}
+.main-content h2 {
+    font-size: 4vw;
+    font-weight: 500;
+}
+.jumbotron {
+    margin-top: -8%;
+}
+/* .inn-text{
+    color: #efeee5;
+} */
+.transparant-btn {
+    color: #fff;
+    background: rgba(194, 194, 194, 0.15);
+    border: 1px solid #fff;
+}
+.btn-style {
+    padding: 20px 40px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+    transition: 0.3s ease-in;
+    border-radius: 5px;
+}
+
+.transparant-btn:hover {
+    color: #074729;
+    background: #efeee5;
+    border: 1px solid #fff;
+}
+
+section{
+    margin-bottom: 120px;
+}
+
+.about {
+    display: flex;
+    gap: 65px;
+}
