@@ -34,3 +34,5 @@ $(function(){
       console.log('prev '+prev);
     }
   });
+
+  AOS.init();
